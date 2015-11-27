@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            objectClass="org.eclipse.jdt.core.IJavaElement"
+            id="mq.popmenu.extend.contribution1">
+         <menu
+               label="项目构建"
+               path="additions"
+               id="mq.popmenu.extend.menu1">
+            <separator
+                  name="group1">
+            </separator>
+         </menu>
+         <action
+               label="Spring"
+               class="mq.popmenu.extend.popup.actions.SpringAction"
+               menubarPath="mq.popmenu.extend.menu1/group1"
+               enablesFor="1"
+               id="mq.popmenu.extend.newAction">
+         </action>
+         <action
+               label="Default Setting"
+               class="mq.popmenu.extend.popup.actions.DefaultAction"
+               menubarPath="mq.popmenu.extend.menu1/group1"
+               enablesFor="1"
+               id="mq.popmenu.extend.newAction2">
+         </action>
+      </objectContribution>
+   </extension>
+
+</plugin>
