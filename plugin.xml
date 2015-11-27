@@ -16,7 +16,7 @@
             </separator>
          </menu>
          <action
-               label="Spring"
+               label="SpringMVC"
                class="mq.popmenu.extend.popup.actions.SpringAction"
                menubarPath="mq.popmenu.extend.menu1/group1"
                enablesFor="1"

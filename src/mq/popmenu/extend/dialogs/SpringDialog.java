@@ -37,7 +37,7 @@ public class SpringDialog extends Dialog{
 		layout.numColumns = 2;
 		layout.marginWidth = 10;
 		layout.marginHeight = 1;
-		getShell().setText("Spring 详细配置"); //设置Dialog的标头
+		getShell().setText("SpringMVC 详细配置"); //设置Dialog的标头
 		parent.setLayout(layout);
 		parent.setSize(200, 200);
 		parent.setLayoutData(new GridData(GridData.FILL_HORIZONTAL));
