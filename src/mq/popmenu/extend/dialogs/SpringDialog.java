@@ -111,7 +111,7 @@ public class SpringDialog extends Dialog{
 	* SWT.MAX：　窗口可以最大化
 	*/
 	protected int getShellStyle() {
-		return super.getShellStyle() | SWT.RESIZE | SWT.MAX;
+		return super.getShellStyle();
 	}
 	
 	/**
