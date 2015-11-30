@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Extend
-Bundle-SymbolicName: mq.popmenu.extend;singleton:=true
+Bundle-SymbolicName: mq.popmenu.spring;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: mq.popmenu.extend.Activator
 Bundle-Vendor: POPMENU

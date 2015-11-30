@@ -14,7 +14,7 @@ import org.eclipse.ui.IWorkbenchPart;
 
 import mq.popmenu.extend.dialogs.SpringDialog;
 
-public class SpringAction implements IObjectActionDelegate {
+public class SpringMVCAction implements IObjectActionDelegate {
 
 	private Shell shell;
 	
@@ -23,7 +23,7 @@ public class SpringAction implements IObjectActionDelegate {
 	/**
 	 * Constructor for Action1.
 	 */
-	public SpringAction() {
+	public SpringMVCAction() {
 		super();
 	}
 

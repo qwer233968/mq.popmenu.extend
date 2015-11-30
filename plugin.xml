@@ -8,7 +8,7 @@
             objectClass="org.eclipse.jdt.core.IJavaElement"
             id="mq.popmenu.extend.contribution1">
          <menu
-               label="项目构建"
+               label="Spring 分类"
                path="additions"
                id="mq.popmenu.extend.menu1">
             <separator
@@ -17,17 +17,10 @@
          </menu>
          <action
                label="SpringMVC"
-               class="mq.popmenu.extend.popup.actions.SpringAction"
+               class="mq.popmenu.extend.popup.actions.SpringMVCAction"
                menubarPath="mq.popmenu.extend.menu1/group1"
                enablesFor="1"
                id="mq.popmenu.extend.newAction">
-         </action>
-         <action
-               label="Default Setting"
-               class="mq.popmenu.extend.popup.actions.DefaultAction"
-               menubarPath="mq.popmenu.extend.menu1/group1"
-               enablesFor="1"
-               id="mq.popmenu.extend.newAction2">
          </action>
       </objectContribution>
    </extension>
